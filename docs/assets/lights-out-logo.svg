@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Lights Out for Windows</title>
+  <desc id="desc">A crescent moon resting above a closed laptop.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26203d"/>
+      <stop offset="1" stop-color="#12101f"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4bd"/>
+      <stop offset="1" stop-color="#ffca6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#night)"/>
+  <circle cx="128" cy="102" r="56" fill="url(#moon)"/>
+  <circle cx="153" cy="79" r="55" fill="url(#night)"/>
+  <circle cx="72" cy="70" r="4" fill="#e8dcff"/>
+  <circle cx="190" cy="117" r="3" fill="#e8dcff"/>
+  <circle cx="181" cy="53" r="5" fill="#e8dcff"/>
+  <path d="M53 169a12 12 0 0 1 12-12h126a12 12 0 0 1 12 12v20H53z" fill="#6d63a8"/>
+  <path d="M39 190h178c0 12-10 21-22 21H61c-12 0-22-9-22-21z" fill="#aaa2d6"/>
+  <rect x="111" y="190" width="34" height="5" rx="2.5" fill="#6d63a8"/>
+</svg>
