@@ -18,6 +18,9 @@
 Lights Out gives you time to wrap up, then hibernates your Windows laptop
 without closing your work.
 
+See the [tldraw architecture board](boards/architecture.tldr) for the runtime
+flow, enforcement boundary, and current verification status.
+
 ## Default schedule
 
 | When | What happens |

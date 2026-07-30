@@ -1,0 +1,2934 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 2,
+    "sequences": {
+      "com.tldraw.store": 5,
+      "com.tldraw.asset": 1,
+      "com.tldraw.camera": 1,
+      "com.tldraw.document": 2,
+      "com.tldraw.instance": 26,
+      "com.tldraw.instance_page_state": 5,
+      "com.tldraw.page": 1,
+      "com.tldraw.instance_presence": 6,
+      "com.tldraw.pointer": 1,
+      "com.tldraw.shape": 4,
+      "com.tldraw.user": 1,
+      "com.tldraw.asset.image": 6,
+      "com.tldraw.asset.video": 5,
+      "com.tldraw.asset.bookmark": 2,
+      "com.tldraw.shape.group": 0,
+      "com.tldraw.shape.text": 4,
+      "com.tldraw.shape.bookmark": 2,
+      "com.tldraw.shape.draw": 5,
+      "com.tldraw.shape.geo": 11,
+      "com.tldraw.shape.note": 13,
+      "com.tldraw.shape.line": 5,
+      "com.tldraw.shape.frame": 1,
+      "com.tldraw.shape.arrow": 8,
+      "com.tldraw.shape.highlight": 4,
+      "com.tldraw.shape.embed": 4,
+      "com.tldraw.shape.image": 5,
+      "com.tldraw.shape.video": 4,
+      "com.tldraw.binding.arrow": 1
+    }
+  },
+  "records": [
+    {
+      "x": 1052,
+      "y": 167,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 1,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-scheduler-countdown-trigger-1-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aHKaz",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 348,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "9:30 PM"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2508,
+      "y": 688,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 8,
+          "segmentIndex": 2,
+          "segmentCount": 5
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-family-safety-user-8-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aa8Dr",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -326
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 882,
+      "y": 880,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 10,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-evidence-hibernate-10-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "ag3o2",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -128
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2508,
+      "y": 362,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 8,
+          "segmentIndex": 3,
+          "segmentCount": 5
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-family-safety-user-8-3",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "abkEr",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": -2348,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2100,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-guard-trigger",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a4Y5U",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "green",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2.3 Boundary guard"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "9:59 PM–6:00 AM; every 5"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "minutes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 882,
+      "y": 752,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 10,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-evidence-hibernate-10-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "ahvIf",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 1400,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "live proof pending"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 160,
+      "y": 362,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 8,
+          "segmentIndex": 4,
+          "segmentCount": 5
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-family-safety-user-8-4",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "ac5mb",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -128
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2282,
+      "y": 752,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 10,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-evidence-hibernate-10-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aig9b",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -128
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2100,
+      "y": 490,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-hibernate",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a8kLE",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "violet",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "4.2 Windows hibernate"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Preserves open session;"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "live cycle pending"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "meta": {},
+      "id": "camera:page:page",
+      "typeName": "camera"
+    },
+    {
+      "x": 700,
+      "y": 880,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-evidence",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "aAVe2",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "orange",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "6.1 Evidence boundary"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "9 schedule tests + CI +"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "install/remove verified"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 344,
+      "y": 557,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 5,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-launcher-engine-5-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aRSl6",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 32,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "lastActivityTimestamp": 0,
+      "meta": {},
+      "id": "pointer:_CK5NxWw_0GFZZjWnNLvc",
+      "typeName": "pointer"
+    },
+    {
+      "x": 860,
+      "y": 624,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 7,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-engine-hibernate-7-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aVQHn",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 32
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 860,
+      "y": 656,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 7,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-engine-hibernate-7-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aWLfj",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 1400,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "at cutoff / guard"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 376,
+      "y": 557,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 5,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-launcher-engine-5-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aS9Kz",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 324,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "hidden process"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "title",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-title",
+      "type": "text",
+      "parentId": "page:page",
+      "index": "a0fcQ",
+      "props": {
+        "color": "black",
+        "size": "xl",
+        "font": "sans",
+        "textAlign": "start",
+        "w": 2540,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Lights Out for Windows — Runtime Architecture"
+                }
+              ]
+            }
+          ]
+        },
+        "scale": 1,
+        "autoSize": false
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2260,
+      "y": 656,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 7,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-engine-hibernate-7-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aXUKD",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -32
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 700,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-scheduler",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a2OIQ",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 120,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "light-blue",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2.1 Task Scheduler"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Sunday–Thursday only"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 0,
+      "y": 880,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-family-safety",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a98Yf",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "green",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "5.1 Family Safety"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Hard lock; organizer"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "configuration required"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1400,
+      "y": 960,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 11,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-legend-evidence-11-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "ajVnz",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": -32,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1400,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-countdown-trigger",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a3Pzi",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "violet",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2.2 Countdown trigger"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "9:30 PM once per lights-out"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "night"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1560,
+      "y": 234,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 3,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-countdown-trigger-launcher-3-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aL4rn",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 64
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1368,
+      "y": 960,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 11,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-legend-evidence-11-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "akAkr",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -13
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1560,
+      "y": 298,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 3,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-countdown-trigger-launcher-3-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aMUOk",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": -1388,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "launch once"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1368,
+      "y": 947,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 11,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-legend-evidence-11-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "alnab",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": -348,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "truthful status"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 172,
+      "y": 298,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 3,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-countdown-trigger-launcher-3-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aNrLU",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 192
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 0,
+      "y": 490,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-launcher",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a5WlX",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 344,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "orange",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "3.1 Windowless launcher"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "wscript.exe →"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "LightsOutLauncher.vbs"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "editingShapeId": null,
+      "croppingShapeId": null,
+      "selectedShapeIds": [],
+      "hoveredShapeId": null,
+      "erasingShapeIds": [],
+      "hintingShapeIds": [],
+      "focusedGroupId": null,
+      "meta": {},
+      "id": "instance_page_state:o53X3meBmL2N99z_jO6tD",
+      "pageId": "page:page",
+      "typeName": "instance_page_state"
+    },
+    {
+      "x": 700,
+      "y": 490,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-engine",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a6qzW",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "blue",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "3.2 Lights Out engine"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Schedule state + countdown"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "+ hibernate"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 320,
+      "y": 167,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 0,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-user-scheduler-0-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aCu66",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 32,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 860,
+      "y": 220,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 2,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-scheduler-guard-trigger-2-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aIXMn",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 46
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 352,
+      "y": 167,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 0,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-user-scheduler-0-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aDJtI",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -7
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1020,
+      "y": 557,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 6,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-engine-countdown-ui-6-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aTpY2",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 32,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 860,
+      "y": 880,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 9,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-evidence-engine-9-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "adGfE",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -160
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 860,
+      "y": 266,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 2,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-scheduler-guard-trigger-2-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aJRbI",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 1400,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "9:59 PM"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 352,
+      "y": 160,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 0,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-user-scheduler-0-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aESnQ",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 348,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "weeknight schedule"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 860,
+      "y": 720,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 9,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-evidence-engine-9-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aeYv6",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 22,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "verified logic"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2260,
+      "y": 266,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 2,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-scheduler-guard-trigger-2-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aKjsr",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -32
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1052,
+      "y": 557,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 6,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-engine-countdown-ui-6-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aUhzN",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 348,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "29-minute runway"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 882,
+      "y": 720,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 9,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-evidence-engine-9-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "afWbU",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -96
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "meta": {},
+      "id": "page:page",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    {
+      "gridSize": 10,
+      "name": "lights-out-architecture",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    {
+      "x": 0,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-user",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a1JLr",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "blue",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "1.1 Adult night owl"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Real trigger: active"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Windows session"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "followingUserId": null,
+      "opacityForNextShape": 1,
+      "stylesForNextShape": {},
+      "brush": null,
+      "scribbles": [],
+      "cursor": {
+        "type": "default",
+        "rotation": 0
+      },
+      "isFocusMode": false,
+      "exportBackground": true,
+      "isDebugMode": false,
+      "isToolLocked": false,
+      "screenBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 720
+      },
+      "insets": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "zoomBrush": null,
+      "isGridMode": false,
+      "isPenMode": false,
+      "chatMessage": "",
+      "isChatting": false,
+      "highlightedUserIds": [],
+      "isFocused": false,
+      "devicePixelRatio": 1,
+      "isCoarsePointer": false,
+      "isHoveringCanvas": null,
+      "openMenus": [],
+      "isChangingStyle": false,
+      "isReadonly": false,
+      "meta": {},
+      "duplicateProps": null,
+      "cameraState": "idle",
+      "id": "instance:instance",
+      "currentPageId": "page:page",
+      "typeName": "instance"
+    },
+    {
+      "x": 2282,
+      "y": 234,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 4,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-guard-trigger-launcher-4-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aOxDE",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 96
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 2282,
+      "y": 330,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 4,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-guard-trigger-launcher-4-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aPClv",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": -2088,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "launch in boundary only"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1400,
+      "y": 880,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-legend",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "aBj0A",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 160,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "blue",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "7.1 Status key"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Green verified · Yellow"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "integrated · Orange user"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "setup · Dashed unverified"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 194,
+      "y": 330,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 4,
+          "segmentIndex": 2,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-guard-trigger-launcher-4-2",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aQIvM",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 160
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1020,
+      "y": 160,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 1,
+          "segmentIndex": 0,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-scheduler-countdown-trigger-1-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aFLFX",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 32,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 160,
+      "y": 880,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 8,
+          "segmentIndex": 0,
+          "segmentCount": 5
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-family-safety-user-8-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aYJuz",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": -192
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1052,
+      "y": 160,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 1,
+          "segmentIndex": 1,
+          "segmentCount": 3
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-scheduler-countdown-trigger-1-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aGfmz",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 7
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 160,
+      "y": 688,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "connection",
+          "evidence": [],
+          "connectionIndex": 8,
+          "segmentIndex": 1,
+          "segmentCount": 5
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-arrow-family-safety-user-8-1",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aZkAX",
+      "props": {
+        "kind": "arc",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "none",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 2348,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "blocks casual override"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1400,
+      "y": 490,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "workflow-ms7mq1iv",
+          "repoName": "Lights Out for Windows — Runtime Architecture",
+          "kind": "step",
+          "evidence": []
+        }
+      },
+      "id": "shape:workflow-ms7mq1iv-countdown-ui",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a7JLQ",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 134,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "light-blue",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "4.1 Countdown UI"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amber at 15m; red at 5m;"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "preview verified"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    }
+  ]
+}
