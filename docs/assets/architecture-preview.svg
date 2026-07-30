@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">A night with Lights Out for Windows</title>
+  <desc id="desc">A four-act story showing how Windows Task Scheduler launches Lights Out, how the script chooses a state, and how hibernation is enforced overnight.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10172a"/><stop offset="1" stop-color="#070b14"/></linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7564e8"/><stop offset="1" stop-color="#9b7cff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000" flood-opacity=".28"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1l10 5-10 5z" fill="#9b87f5"/></marker>
+    <style>
+      text{font-family:"Segoe UI",Inter,Arial,sans-serif}.eyebrow{fill:#b9abff;font-size:13px;font-weight:700;letter-spacing:2px}.h1{fill:#fff;font-size:36px;font-weight:750}.h2{fill:#fff;font-size:22px;font-weight:700}.body{fill:#c2cbe1;font-size:15px}.small{fill:#8e9ab8;font-size:13px}.micro{fill:#aeb9d3;font-size:12px}.time{fill:#fff;font-size:17px;font-weight:700}.card{fill:#171f34;stroke:#34405f;stroke-width:1.5}.verified{fill:#122d29;stroke:#31917d}.integrated{fill:#211e3d;stroke:#7868dc}.outside{fill:#151a28;stroke:#59627b;stroke-width:1.5;stroke-dasharray:8 7}.step{fill:#8571f2}.line{stroke:#9b87f5;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1440" height="900" rx="28" fill="url(#bg)"/>
+  <circle cx="1325" cy="70" r="115" fill="#7564e8" opacity=".08"/><circle cx="1295" cy="43" r="7" fill="#cabfff"/><circle cx="1365" cy="120" r="4" fill="#cabfff" opacity=".6"/>
+
+  <text x="64" y="58" class="eyebrow">LIGHTS OUT FOR WINDOWS · THE RUNTIME STORY</text>
+  <text x="64" y="104" class="h1">What actually happens on a weeknight?</text>
+  <text x="64" y="137" class="body">Windows owns the clock. One script reads the time, chooses a state, and performs the matching action.</text>
+
+  <!-- actor strip -->
+  <rect x="64" y="166" width="1312" height="72" rx="18" fill="#111a2c" stroke="#293552"/>
+  <text x="92" y="194" class="small">WHO DOES WHAT</text>
+  <circle cx="255" cy="202" r="17" fill="#2b3755"/><text x="255" y="207" text-anchor="middle" fill="#fff" font-size="15">1</text>
+  <text x="282" y="198" class="body">Task Scheduler</text><text x="282" y="219" class="micro">wakes the project</text>
+  <path d="M430 202h70" class="line"/>
+  <circle cx="535" cy="202" r="17" fill="#6656d9"/><text x="535" y="207" text-anchor="middle" fill="#fff" font-size="15">2</text>
+  <text x="562" y="198" class="body">LightsOut.ps1</text><text x="562" y="219" class="micro">decides the current state</text>
+  <path d="M745 202h70" class="line"/>
+  <circle cx="850" cy="202" r="17" fill="#2d8d78"/><text x="850" y="207" text-anchor="middle" fill="#fff" font-size="15">3</text>
+  <text x="877" y="198" class="body">Windows</text><text x="877" y="219" class="micro">shows UI or hibernates</text>
+  <text x="1160" y="199" fill="#85d5c0" font-size="13" font-weight="700">SOLID ARROW = RUNNING PATH</text>
+
+  <!-- Act 1 -->
+  <rect x="64" y="274" width="300" height="384" rx="24" class="card" filter="url(#shadow)"/>
+  <circle cx="104" cy="316" r="20" class="step"/><text x="104" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">1</text>
+  <text x="136" y="311" class="time">Before 9:30 PM</text><text x="136" y="334" class="small">DAYTIME</text>
+  <path d="M112 382a35 35 0 1 0 32 47 41 41 0 0 1-32-47z" fill="#74809e" opacity=".55"/>
+  <text x="96" y="500" class="h2">Nothing runs</text>
+  <rect x="96" y="574" width="236" height="50" rx="14" fill="#11182a"/>
+  <text x="214" y="596" text-anchor="middle" class="small">Laptop behaves normally</text><text x="214" y="615" text-anchor="middle" class="micro">Task Scheduler is waiting</text>
+
+  <!-- Act 2 -->
+  <rect x="390" y="274" width="300" height="384" rx="24" class="integrated" filter="url(#shadow)"/>
+  <circle cx="430" cy="316" r="20" class="step"/><text x="430" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">2</text>
+  <text x="462" y="311" class="time">9:30 PM</text><text x="462" y="334" class="small">THE RUNWAY BEGINS</text>
+  <rect x="422" y="367" width="236" height="58" rx="15" fill="#151d31" stroke="#52617f"/>
+  <text x="540" y="391" text-anchor="middle" class="body">Task Scheduler launches</text><text x="540" y="413" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">LightsOut.ps1</text>
+  <path d="M540 425v34" class="line"/>
+  <polygon points="540,456 626,500 540,544 454,500" fill="#352c68" stroke="#9b87f5" stroke-width="2"/>
+  <text x="540" y="494" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">STATE?</text><text x="540" y="514" text-anchor="middle" class="micro">Countdown</text>
+  <path d="M540 544v28" class="line"/>
+  <rect x="422" y="570" width="236" height="58" rx="15" fill="url(#purple)"/>
+  <text x="540" y="594" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Show visible countdown</text><text x="540" y="615" text-anchor="middle" fill="#eeeaff" font-size="12">amber → red · cannot be closed</text>
+
+  <!-- Act 3 -->
+  <rect x="716" y="274" width="300" height="384" rx="24" class="integrated" filter="url(#shadow)"/>
+  <circle cx="756" cy="316" r="20" class="step"/><text x="756" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">3</text>
+  <text x="788" y="311" class="time">9:59 PM</text><text x="788" y="334" class="small">LIGHTS OUT</text>
+  <rect x="748" y="367" width="236" height="58" rx="15" fill="#151d31" stroke="#52617f"/>
+  <text x="866" y="391" text-anchor="middle" class="body">Countdown reaches zero</text><text x="866" y="413" text-anchor="middle" class="micro">and requests hibernation</text>
+  <path d="M866 425v34" class="line"/>
+  <rect x="748" y="459" width="236" height="62" rx="15" class="verified"/>
+  <text x="866" y="485" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Windows hibernates</text><text x="866" y="507" text-anchor="middle" class="micro">open work is preserved</text>
+  <rect x="748" y="552" width="236" height="76" rx="15" fill="#151d31" stroke="#52617f"/>
+  <text x="866" y="578" text-anchor="middle" class="body">At the same time</text><text x="866" y="600" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">guard schedule starts</text><text x="866" y="619" text-anchor="middle" class="micro">every 5 minutes until 6:00</text>
+
+  <!-- Act 4 -->
+  <rect x="1042" y="274" width="334" height="384" rx="24" class="verified" filter="url(#shadow)"/>
+  <circle cx="1082" cy="316" r="20" fill="#2f8f7c"/><text x="1082" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">4</text>
+  <text x="1114" y="311" class="time">Overnight</text><text x="1114" y="334" class="small">THE BOUNDARY GUARD</text>
+  <rect x="1074" y="367" width="270" height="58" rx="15" fill="#10231f" stroke="#31917d"/>
+  <text x="1209" y="391" text-anchor="middle" class="body">Scheduler relaunches script</text><text x="1209" y="413" text-anchor="middle" class="micro">only if the laptop is available</text>
+  <path d="M1209 425v28" class="line"/>
+  <polygon points="1209,450 1295,494 1209,538 1123,494" fill="#173b34" stroke="#4ec3a5" stroke-width="2"/>
+  <text x="1209" y="488" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">STATE?</text><text x="1209" y="508" text-anchor="middle" class="micro">Blocked</text>
+  <path d="M1209 538v24" class="line"/>
+  <rect x="1074" y="560" width="270" height="68" rx="15" fill="#10231f" stroke="#31917d"/>
+  <text x="1209" y="586" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Hibernate again</text><text x="1209" y="608" text-anchor="middle" class="micro">6:00 AM → schedule ends</text>
+
+  <!-- optional hard boundary -->
+  <rect x="64" y="700" width="1312" height="142" rx="24" class="outside"/>
+  <text x="92" y="730" class="eyebrow">OPTIONAL ESCALATION · NOT PART OF TODAY'S RUNNING PATH</text>
+  <path d="M96 754l21-9 21 9v19c0 15-9 27-21 33-12-6-21-18-21-33z" fill="#27314a" stroke="#aeb8d4" stroke-width="2"/>
+  <text x="160" y="770" class="h2">Microsoft Family Safety</text>
+  <text x="160" y="800" class="body">Needed only for a harder boundary: a trusted organizer controls the account so you cannot grant yourself more time.</text>
+  <rect x="1090" y="748" width="250" height="60" rx="18" fill="#2d2518" stroke="#b88738"/>
+  <text x="1215" y="774" text-anchor="middle" fill="#efc36d" font-size="14" font-weight="700">NOT INTEGRATED</text>
+  <text x="1215" y="796" text-anchor="middle" class="micro">script does not call it</text>
+
+  <text x="64" y="873" class="small">Status: purple = integrated · green = locally verified · dashed grey = optional/outside the MVP</text>
+</svg>

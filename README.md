@@ -18,8 +18,16 @@
 Lights Out gives you time to wrap up, then hibernates your Windows laptop
 without closing your work.
 
-See the [tldraw architecture board](boards/architecture.tldr) for the runtime
-flow, enforcement boundary, and current verification status.
+## How it works
+
+![Lights Out system runtime overview](docs/assets/architecture-preview.svg)
+
+Windows Task Scheduler wakes the project. `LightsOut.ps1` checks the time, then
+either shows the countdown or asks Windows to hibernate. Microsoft Family
+Safety is an optional harder boundary; the script does not call it.
+
+The editable [tldraw architecture board](boards/architecture.tldr) remains
+available as a technical reference.
 
 ## Default schedule
 
