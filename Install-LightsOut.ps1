@@ -42,11 +42,18 @@ foreach ($day in @("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday")) {
 }
 
 $guardTrigger = New-ScheduledTaskTrigger `
-    -Once `
-    -At (Get-Date).Date `
-    -RepetitionInterval (New-TimeSpan -Minutes 5) `
-    -RepetitionDuration (New-TimeSpan -Days 3650)
-$logonTrigger = New-ScheduledTaskTrigger -AtLogOn -User $currentUser
+    -Weekly `
+    -DaysOfWeek Sunday, Monday, Tuesday, Wednesday, Thursday `
+    -At "9:59 PM"
+$guardTrigger.Repetition = New-CimInstance `
+    -ClassName MSFT_TaskRepetitionPattern `
+    -Namespace "Root/Microsoft/Windows/TaskScheduler" `
+    -ClientOnly `
+    -Property @{
+        Interval = "PT5M"
+        Duration = "PT8H1M"
+        StopAtDurationEnd = $false
+    }
 
 foreach ($taskName in @($countdownTaskName, $guardTaskName)) {
     $existing = Get-ScheduledTask -TaskPath $taskFolder -TaskName $taskName -ErrorAction SilentlyContinue
@@ -72,7 +79,7 @@ Register-ScheduledTask `
     -TaskName $guardTaskName `
     -Description "Re-hibernates this laptop when it is used during Lights Out hours." `
     -Action $action `
-    -Trigger @($guardTrigger, $logonTrigger) `
+    -Trigger $guardTrigger `
     -Settings $settings `
     -Principal $principal | Out-Null
 

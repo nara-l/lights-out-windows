@@ -32,6 +32,9 @@ without closing your work.
 If the laptop is used during Lights Out hours, the boundary guard hibernates it
 again within five minutes.
 
+The guard runs only during the boundary window. It remains dormant during the
+day and throughout the weekend.
+
 ## Install
 
 1. Download or clone this repository.
