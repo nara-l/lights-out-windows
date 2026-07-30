@@ -8,6 +8,7 @@ $ErrorActionPreference = "Stop"
 
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $runtimeScript = Join-Path $projectRoot "LightsOut.ps1"
+$runtimeLauncher = Join-Path $projectRoot "LightsOutLauncher.vbs"
 $taskFolder = "\Lights Out\"
 $countdownTaskName = "Countdown"
 $guardTaskName = "Boundary Guard"
@@ -16,14 +17,18 @@ $currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 if (-not (Test-Path -LiteralPath $runtimeScript)) {
     throw "LightsOut.ps1 is missing from $projectRoot."
 }
+if (-not (Test-Path -LiteralPath $runtimeLauncher)) {
+    throw "LightsOutLauncher.vbs is missing from $projectRoot."
+}
 
 $hibernateStates = (& powercfg.exe /a | Out-String)
 if ($hibernateStates -notmatch "(?im)^\s*Hibernate\s*$") {
     throw "Hibernate is not available on this laptop. Enable it before installing Lights Out."
 }
 
-$actionArguments = "-NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$runtimeScript`""
-$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument $actionArguments
+$action = New-ScheduledTaskAction `
+    -Execute "$env:SystemRoot\System32\wscript.exe" `
+    -Argument "`"$runtimeLauncher`""
 $settings = New-ScheduledTaskSettingsSet `
     -AllowStartIfOnBatteries `
     -DontStopIfGoingOnBatteries `
