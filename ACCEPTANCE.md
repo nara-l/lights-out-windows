@@ -11,7 +11,7 @@ This file distinguishes code existence from a working bedtime boundary.
 | Boundary guard | Use during blocked hours causes another hibernate request within five minutes | Integrated | Blocked-time branch returned `Hibernate suppressed by -NoHibernate` | Real blocked-hours hibernate/wake run pending |
 | Failure behavior | Task Scheduler records failures and retries at the next five-minute guard interval | Implemented | Induce a safe failure and inspect task result/history | Operational test pending |
 | Removal | Both scheduled tasks are removed without touching personal work | Operationally verified | Removed both tasks, confirmed zero remained, and reinstalled both on 2026-07-30 | None |
-| System runtime overview | README explains both runtime boundaries and the separate Family Safety boundary without requiring the reader to open the code | Implemented | Local README and SVG show shared warning, hibernate, and guard behavior for lunch and night | Publish and inspect on GitHub |
+| System runtime overview | README explains both runtime boundaries and the separate Family Safety boundary without requiring the reader to open the code | Operationally verified | Public README and SVG at commit `eeb3fbc` show shared warning, hibernate, and guard behavior for lunch and night | None |
 | Hard account lock | Everyday account cannot grant itself more time or disable the boundary | Not integrated | Microsoft Family Safety organizer observes a blocked sign-in | Trusted organizer configuration required |
 
 The project is not **complete** until the real trigger, hibernate/wake cycle,
