@@ -33,6 +33,9 @@ available as a technical reference.
 
 | When | What happens |
 | --- | --- |
+| Monday-Friday, 11:30 AM | Lunch countdown begins |
+| 11:45 AM | Laptop hibernates |
+| 1:30 PM | Lunch boundary ends |
 | Sunday-Thursday, 9:30 PM | Countdown begins |
 | 9:44 PM | Screen turns amber |
 | 9:54 PM | Screen turns red |
@@ -40,11 +43,11 @@ available as a technical reference.
 | 6:00 AM | Boundary ends |
 | Friday-Saturday | Unrestricted |
 
-If the laptop is used during Lights Out hours, the boundary guard hibernates it
-again within five minutes.
+If the laptop is used during either Lights Out boundary, the boundary guard
+hibernates it again within five minutes.
 
-The guard runs only during the boundary window. It remains dormant during the
-day and throughout the weekend.
+The guard runs only from 11:45 AM to 1:30 PM on weekdays and from 9:59 PM to
+6:00 AM on weeknights. It does not poll outside those windows.
 
 ## Install
 

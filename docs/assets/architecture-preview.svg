@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
-  <title id="title">A night with Lights Out for Windows</title>
-  <desc id="desc">A four-act story showing how Windows Task Scheduler launches Lights Out, how the script chooses a state, and how hibernation is enforced overnight.</desc>
+  <title id="title">Lights Out for Windows runtime overview</title>
+  <desc id="desc">A four-act story showing how Windows Task Scheduler launches Lights Out for the weekday lunch and weeknight boundaries.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10172a"/><stop offset="1" stop-color="#070b14"/></linearGradient>
     <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7564e8"/><stop offset="1" stop-color="#9b7cff"/></linearGradient>
@@ -14,7 +14,7 @@
   <circle cx="1325" cy="70" r="115" fill="#7564e8" opacity=".08"/><circle cx="1295" cy="43" r="7" fill="#cabfff"/><circle cx="1365" cy="120" r="4" fill="#cabfff" opacity=".6"/>
 
   <text x="64" y="58" class="eyebrow">LIGHTS OUT FOR WINDOWS · THE RUNTIME STORY</text>
-  <text x="64" y="104" class="h1">What actually happens on a weeknight?</text>
+  <text x="64" y="104" class="h1">What happens during a Lights Out boundary?</text>
   <text x="64" y="137" class="body">Windows owns the clock. One script reads the time, chooses a state, and performs the matching action.</text>
 
   <!-- actor strip -->
@@ -33,7 +33,7 @@
   <!-- Act 1 -->
   <rect x="64" y="274" width="300" height="384" rx="24" class="card" filter="url(#shadow)"/>
   <circle cx="104" cy="316" r="20" class="step"/><text x="104" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">1</text>
-  <text x="136" y="311" class="time">Before 9:30 PM</text><text x="136" y="334" class="small">DAYTIME</text>
+  <text x="136" y="311" class="time">Outside a boundary</text><text x="136" y="334" class="small">NORMAL USE</text>
   <path d="M112 382a35 35 0 1 0 32 47 41 41 0 0 1-32-47z" fill="#74809e" opacity=".55"/>
   <text x="96" y="500" class="h2">Nothing runs</text>
   <rect x="96" y="574" width="236" height="50" rx="14" fill="#11182a"/>
@@ -42,7 +42,7 @@
   <!-- Act 2 -->
   <rect x="390" y="274" width="300" height="384" rx="24" class="integrated" filter="url(#shadow)"/>
   <circle cx="430" cy="316" r="20" class="step"/><text x="430" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">2</text>
-  <text x="462" y="311" class="time">9:30 PM</text><text x="462" y="334" class="small">THE RUNWAY BEGINS</text>
+  <text x="462" y="311" class="time">Warning begins</text><text x="462" y="334" class="small">11:30 AM · 9:30 PM</text>
   <rect x="422" y="367" width="236" height="58" rx="15" fill="#151d31" stroke="#52617f"/>
   <text x="540" y="391" text-anchor="middle" class="body">Task Scheduler launches</text><text x="540" y="413" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">LightsOut.ps1</text>
   <path d="M540 425v34" class="line"/>
@@ -55,19 +55,19 @@
   <!-- Act 3 -->
   <rect x="716" y="274" width="300" height="384" rx="24" class="integrated" filter="url(#shadow)"/>
   <circle cx="756" cy="316" r="20" class="step"/><text x="756" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">3</text>
-  <text x="788" y="311" class="time">9:59 PM</text><text x="788" y="334" class="small">LIGHTS OUT</text>
+  <text x="788" y="311" class="time">Boundary begins</text><text x="788" y="334" class="small">11:45 AM · 9:59 PM</text>
   <rect x="748" y="367" width="236" height="58" rx="15" fill="#151d31" stroke="#52617f"/>
   <text x="866" y="391" text-anchor="middle" class="body">Countdown reaches zero</text><text x="866" y="413" text-anchor="middle" class="micro">and requests hibernation</text>
   <path d="M866 425v34" class="line"/>
   <rect x="748" y="459" width="236" height="62" rx="15" class="verified"/>
   <text x="866" y="485" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Windows hibernates</text><text x="866" y="507" text-anchor="middle" class="micro">open work is preserved</text>
   <rect x="748" y="552" width="236" height="76" rx="15" fill="#151d31" stroke="#52617f"/>
-  <text x="866" y="578" text-anchor="middle" class="body">At the same time</text><text x="866" y="600" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">guard schedule starts</text><text x="866" y="619" text-anchor="middle" class="micro">every 5 minutes until 6:00</text>
+  <text x="866" y="578" text-anchor="middle" class="body">At the same time</text><text x="866" y="600" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">guard schedule starts</text><text x="866" y="619" text-anchor="middle" class="micro">every 5 minutes</text>
 
   <!-- Act 4 -->
   <rect x="1042" y="274" width="334" height="384" rx="24" class="verified" filter="url(#shadow)"/>
   <circle cx="1082" cy="316" r="20" fill="#2f8f7c"/><text x="1082" y="322" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">4</text>
-  <text x="1114" y="311" class="time">Overnight</text><text x="1114" y="334" class="small">THE BOUNDARY GUARD</text>
+  <text x="1114" y="311" class="time">Blocked hours</text><text x="1114" y="334" class="small">THE BOUNDARY GUARD</text>
   <rect x="1074" y="367" width="270" height="58" rx="15" fill="#10231f" stroke="#31917d"/>
   <text x="1209" y="391" text-anchor="middle" class="body">Scheduler relaunches script</text><text x="1209" y="413" text-anchor="middle" class="micro">only if the laptop is available</text>
   <path d="M1209 425v28" class="line"/>
@@ -75,7 +75,7 @@
   <text x="1209" y="488" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">STATE?</text><text x="1209" y="508" text-anchor="middle" class="micro">Blocked</text>
   <path d="M1209 538v24" class="line"/>
   <rect x="1074" y="560" width="270" height="68" rx="15" fill="#10231f" stroke="#31917d"/>
-  <text x="1209" y="586" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Hibernate again</text><text x="1209" y="608" text-anchor="middle" class="micro">6:00 AM → schedule ends</text>
+  <text x="1209" y="586" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Hibernate again</text><text x="1209" y="608" text-anchor="middle" class="micro">1:30 PM or 6:00 AM → boundary ends</text>
 
   <!-- optional hard boundary -->
   <rect x="64" y="700" width="1312" height="142" rx="24" class="outside"/>
