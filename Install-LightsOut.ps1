@@ -40,12 +40,15 @@ $countdownTriggers = @()
 foreach ($day in @("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday")) {
     $countdownTriggers += New-ScheduledTaskTrigger -Weekly -DaysOfWeek $day -At "9:30 PM"
 }
+foreach ($day in @("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")) {
+    $countdownTriggers += New-ScheduledTaskTrigger -Weekly -DaysOfWeek $day -At "11:30 AM"
+}
 
-$guardTrigger = New-ScheduledTaskTrigger `
+$nightGuardTrigger = New-ScheduledTaskTrigger `
     -Weekly `
     -DaysOfWeek Sunday, Monday, Tuesday, Wednesday, Thursday `
     -At "9:59 PM"
-$guardTrigger.Repetition = New-CimInstance `
+$nightGuardTrigger.Repetition = New-CimInstance `
     -ClassName MSFT_TaskRepetitionPattern `
     -Namespace "Root/Microsoft/Windows/TaskScheduler" `
     -ClientOnly `
@@ -54,6 +57,22 @@ $guardTrigger.Repetition = New-CimInstance `
         Duration = "PT8H1M"
         StopAtDurationEnd = $false
     }
+
+$lunchGuardTrigger = New-ScheduledTaskTrigger `
+    -Weekly `
+    -DaysOfWeek Monday, Tuesday, Wednesday, Thursday, Friday `
+    -At "11:45 AM"
+$lunchGuardTrigger.Repetition = New-CimInstance `
+    -ClassName MSFT_TaskRepetitionPattern `
+    -Namespace "Root/Microsoft/Windows/TaskScheduler" `
+    -ClientOnly `
+    -Property @{
+        Interval = "PT5M"
+        Duration = "PT1H45M"
+        StopAtDurationEnd = $false
+    }
+
+$guardTriggers = @($nightGuardTrigger, $lunchGuardTrigger)
 
 foreach ($taskName in @($countdownTaskName, $guardTaskName)) {
     $existing = Get-ScheduledTask -TaskPath $taskFolder -TaskName $taskName -ErrorAction SilentlyContinue
@@ -68,7 +87,7 @@ foreach ($taskName in @($countdownTaskName, $guardTaskName)) {
 Register-ScheduledTask `
     -TaskPath $taskFolder `
     -TaskName $countdownTaskName `
-    -Description "Shows the Lights Out countdown Sunday through Thursday at 9:30 PM." `
+    -Description "Shows the Lights Out countdown before the lunch and night boundaries." `
     -Action $action `
     -Trigger $countdownTriggers `
     -Settings $settings `
@@ -77,13 +96,13 @@ Register-ScheduledTask `
 Register-ScheduledTask `
     -TaskPath $taskFolder `
     -TaskName $guardTaskName `
-    -Description "Re-hibernates this laptop when it is used during Lights Out hours." `
+    -Description "Re-hibernates this laptop when it is used during lunch or night Lights Out hours." `
     -Action $action `
-    -Trigger $guardTrigger `
+    -Trigger $guardTriggers `
     -Settings $settings `
     -Principal $principal | Out-Null
 
 Write-Output "Lights Out installed for $currentUser."
-Write-Output "Countdown: Sunday-Thursday at 9:30 PM."
-Write-Output "Hibernate boundary: 9:59 PM-6:00 AM."
+Write-Output "Lunch boundary: Monday-Friday, warning at 11:30 AM, hibernate from 11:45 AM-1:30 PM."
+Write-Output "Night boundary: Sunday-Thursday, warning at 9:30 PM, hibernate from 9:59 PM-6:00 AM."
 Write-Output "Run .\LightsOut.ps1 -Mode Preview to see the 15-second safe preview."

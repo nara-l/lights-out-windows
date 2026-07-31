@@ -12,6 +12,13 @@ $cases = @(
     @{ At = "2026-08-02 21:59"; Expected = "Blocked" },
     @{ At = "2026-08-03 05:59"; Expected = "Blocked" },
     @{ At = "2026-08-03 06:00"; Expected = "Open" },
+    @{ At = "2026-08-03 11:29"; Expected = "Open" },
+    @{ At = "2026-08-03 11:30"; Expected = "Countdown" },
+    @{ At = "2026-08-03 11:44"; Expected = "Countdown" },
+    @{ At = "2026-08-03 11:45"; Expected = "Blocked" },
+    @{ At = "2026-08-03 13:29"; Expected = "Blocked" },
+    @{ At = "2026-08-03 13:30"; Expected = "Open" },
+    @{ At = "2026-08-08 12:00"; Expected = "Open" },
     @{ At = "2026-08-07 21:59"; Expected = "Open" },
     @{ At = "2026-08-08 23:00"; Expected = "Open" },
     @{ At = "2026-08-09 22:00"; Expected = "Blocked" }

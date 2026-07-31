@@ -14,6 +14,12 @@ $script:LightsOutMinute = 59
 $script:WakeHour = 6
 $script:CountdownHour = 21
 $script:CountdownMinute = 30
+$script:LunchCountdownHour = 11
+$script:LunchCountdownMinute = 30
+$script:LunchLightsOutHour = 11
+$script:LunchLightsOutMinute = 45
+$script:LunchWakeHour = 13
+$script:LunchWakeMinute = 30
 
 function Get-LightsOutState {
     param([datetime]$At)
@@ -22,6 +28,9 @@ function Get-LightsOutState {
     $countdownStart = ($script:CountdownHour * 60) + $script:CountdownMinute
     $lightsOut = ($script:LightsOutHour * 60) + $script:LightsOutMinute
     $wake = $script:WakeHour * 60
+    $lunchCountdownStart = ($script:LunchCountdownHour * 60) + $script:LunchCountdownMinute
+    $lunchLightsOut = ($script:LunchLightsOutHour * 60) + $script:LunchLightsOutMinute
+    $lunchWake = ($script:LunchWakeHour * 60) + $script:LunchWakeMinute
 
     $isLightsOutEvening = $At.DayOfWeek -in @(
         [DayOfWeek]::Sunday,
@@ -37,9 +46,22 @@ function Get-LightsOutState {
         [DayOfWeek]::Thursday,
         [DayOfWeek]::Friday
     )
+    $isWeekday = $At.DayOfWeek -in @(
+        [DayOfWeek]::Monday,
+        [DayOfWeek]::Tuesday,
+        [DayOfWeek]::Wednesday,
+        [DayOfWeek]::Thursday,
+        [DayOfWeek]::Friday
+    )
 
     if ($isBlockedMorning -and $minutes -lt $wake) {
         return "Blocked"
+    }
+    if ($isWeekday -and $minutes -ge $lunchLightsOut -and $minutes -lt $lunchWake) {
+        return "Blocked"
+    }
+    if ($isWeekday -and $minutes -ge $lunchCountdownStart -and $minutes -lt $lunchLightsOut) {
+        return "Countdown"
     }
     if ($isLightsOutEvening -and $minutes -ge $lightsOut) {
         return "Blocked"
@@ -48,6 +70,26 @@ function Get-LightsOutState {
         return "Countdown"
     }
     return "Open"
+}
+
+function Get-CountdownTarget {
+    param([datetime]$At)
+
+    $minutes = ($At.Hour * 60) + $At.Minute
+    $lunchCountdownStart = ($script:LunchCountdownHour * 60) + $script:LunchCountdownMinute
+    $lunchLightsOut = ($script:LunchLightsOutHour * 60) + $script:LunchLightsOutMinute
+
+    if ($At.DayOfWeek -in @(
+        [DayOfWeek]::Monday,
+        [DayOfWeek]::Tuesday,
+        [DayOfWeek]::Wednesday,
+        [DayOfWeek]::Thursday,
+        [DayOfWeek]::Friday
+    ) -and $minutes -ge $lunchCountdownStart -and $minutes -lt $lunchLightsOut) {
+        return $At.Date.AddHours($script:LunchLightsOutHour).AddMinutes($script:LunchLightsOutMinute)
+    }
+
+    return $At.Date.AddHours($script:LightsOutHour).AddMinutes($script:LightsOutMinute)
 }
 
 function Get-NextLightsOut {
@@ -123,7 +165,12 @@ function Show-Countdown {
     $clock.HorizontalAlignment = "Center"
 
     $detail = New-Object Windows.Controls.TextBlock
-    $detail.Text = if ($IsPreview) { "Preview only - hibernation is disabled." } else { "This laptop will hibernate at 9:59 PM." }
+    $detail.Text = if ($IsPreview) {
+        "Preview only - hibernation is disabled."
+    }
+    else {
+        "This laptop will hibernate at $($Target.ToString('h:mm tt'))."
+    }
     $detail.Foreground = "#D7CEDB"
     $detail.FontSize = 16
     $detail.HorizontalAlignment = "Center"
@@ -195,7 +242,7 @@ if ($Mode -eq "Preview") {
 
 switch ($state) {
     "Countdown" {
-        $target = $Now.Date.AddHours($script:LightsOutHour).AddMinutes($script:LightsOutMinute)
+        $target = Get-CountdownTarget -At $Now
         Show-Countdown -Target $target
     }
     "Blocked" {
